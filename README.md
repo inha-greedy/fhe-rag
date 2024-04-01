@@ -6,22 +6,22 @@ What happens if we add FHE to RAG?
 
 1. install python 3.9
 
-# quick start
-
-1. clone repository
+2. clone repository
 
 ```bash
 git clone https://github.com/KangmoonSeo/fhe-rag
 cd fhe-rag
 ```
 
-2. install requirements
+3. install requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. run
+# quick start
+
+1. run script
 
 ```bash
 # linux, macOS
