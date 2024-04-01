@@ -26,9 +26,6 @@ pip install -r requirements.txt
 ```bash
 # linux, macOS
 ./make.sh
-
-# Windows
-./make.bat
 ```
 
 ## To contributor: how to use pre-commit

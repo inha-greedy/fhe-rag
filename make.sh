@@ -1,3 +1,2 @@
-
-python3 -u "fhe-rag/main.py"
+python3 -u "client/main.py"
 
