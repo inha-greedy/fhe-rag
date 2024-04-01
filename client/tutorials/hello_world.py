@@ -3,7 +3,7 @@ import numpy as np
 from Pyfhel import Pyfhel
 
 
-def hello_world():
+def tutorial_hello_world():
     """
     기본적인 덧셈, 뺄셈, 곱셈 연산에 대한 튜토리얼 함수입니다.
 
