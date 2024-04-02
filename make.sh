@@ -1,2 +1,2 @@
-python3 -u "client/main.py"
+python3 -u "workspace/main.py"
 
