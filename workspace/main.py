@@ -1,4 +1,4 @@
-from tutorials.hello_world import tutorial_hello_world
+from .tutorials.hello_world import tutorial_hello_world
 
 
 def main():

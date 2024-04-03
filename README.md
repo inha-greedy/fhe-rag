@@ -4,7 +4,7 @@ What happens if we add FHE to RAG?
 
 # pre-requisite
 
-1. install python 3.9
+1. install python 3.10
 
 2. clone repository
 

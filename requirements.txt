@@ -9,7 +9,7 @@ nodeenv==1.8.0
 numpy==1.26.4
 platformdirs==4.2.0
 pre-commit==3.7.0
-Pyfhel==3.4.2
+Pyfhel==3.3.2
 PyYAML==6.0.1
 requests==2.31.0
 urllib3==2.2.1
