@@ -1,7 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-
 from ..services.top_k import get_top_k
 
 

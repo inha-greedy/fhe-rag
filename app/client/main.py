@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 
-from .tutorials.hello_world import tutorial_hello_world
 from .services.query import query_message
+from .tutorials.hello_world import tutorial_hello_world
 
 
 def main():
