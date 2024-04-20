@@ -10,6 +10,9 @@ app = FastAPI()
 
 origins = ["*"]
 
+from Pyfhel import Pyfhel
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
