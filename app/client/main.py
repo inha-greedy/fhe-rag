@@ -13,7 +13,7 @@ def main():
     load_dotenv()
     message_input = "hello world!"
     answer = query_message(message_input=message_input)
-    print(f"{answer=}")
+    print(f"서강문 돈 내서 얻은 응답: {answer=}")
 
     # 2. pyfhel example
     tutorial_hello_world()

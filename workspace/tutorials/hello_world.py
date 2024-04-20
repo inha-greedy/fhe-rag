@@ -1,6 +1,6 @@
 import numpy as np
 
-from Pyfhel import Pyfhel
+from Pyfhel import Pyfhel, PyCtxt
 
 
 def tutorial_hello_world():
@@ -10,7 +10,7 @@ def tutorial_hello_world():
     """
     print("1. Import Pyfhel class, and numpy for the inputs to encrypt.")
 
-    HE = Pyfhel()  # Creating empty Pyfhel object
+    HE = PyCtxt()  # Creating empty Pyfhel object
     HE.contextGen(scheme="bfv", n=2**14, t_bits=20)  # Generate context for 'bfv'/'ckks' scheme
     # The n defines the number of plaintext slots.
     #  There are many configurable parameters on this step
@@ -29,6 +29,7 @@ def tutorial_hello_world():
 
     print(ctxt1)
     print(ctxt2)
+
 
     ct_sum = ctxt1 + ctxt2  # `ctxt1 += ctxt2` for inplace operation
     ct_sub = ctxt1 - ctxt2  # `ctxt1 -= ctxt2` for inplace operation
