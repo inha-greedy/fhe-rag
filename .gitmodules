@@ -1,0 +1,3 @@
+[submodule "fhe-rag-pipeline"]
+	path = fhe-rag-pipeline
+	url = https://github.com/inha-greedy/fhe-rag-pipeline.git
