@@ -1,3 +1,9 @@
 [submodule "fhe-rag-pipeline"]
 	path = fhe-rag-pipeline
 	url = https://github.com/inha-greedy/fhe-rag-pipeline.git
+[submodule "fhe-rag-client"]
+	path = fhe-rag-client
+	url = https://github.com/inha-greedy/fhe-rag-client.git
+[submodule "fhe-rag-server"]
+	path = fhe-rag-server
+	url = https://github.com/inha-greedy/fhe-rag-server.git
